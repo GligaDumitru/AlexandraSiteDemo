@@ -1,0 +1,104 @@
+html,body{
+    width:96%;
+    margin:0 auto;
+    padding: 0;
+}
+#red{
+    border:1px red;
+}
+
+.loginSection{
+    border:0px solid #000;
+    border-left: 1px solid #1fa67b;
+}
+.labelCheckBox{
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight:lighter;
+}
+form,h1{
+    color :#1fa67b !important;
+}
+
+#btn-login:hover{
+    color:#000;
+}
+#btn-login{
+    background: #1fa67b;
+    color:#fff;
+    transition-duration: 1s;
+}
+.inregistrareLink{
+    color:#ccc;
+}
+.inregistrareLink:hover{
+    color:#1fa67b;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
+    background-image: url('../img/background.jpg');
+}
+.navbar{
+    background: #fff;
+    opacity: .7;
+    transition-duration: 1s;
+}
+.navbar:hover{
+    background: #fff;
+    opacity: 1;
+}
+input{
+    opacity:.7;
+}
+
+.panel-heading{
+    background: #1fa67b;
+    color:#fff; 
+}
+.panel-group,.panel{
+    border:0px solid red;
+    opacity: .9;
+}
+.panel-group:hover{
+    opacity: 1;
+}
+
+
+.btn{
+    color:red;
+}
+.btn-default{
+    color:#fff;
+    background: #1fa67b;
+    transition-duration: 1s;
+
+}
+.btn-default:hover{
+    color:#000;
+    background: #1fa67b;
+}
+
+.footer{
+    background: #1fa67b;
+    color:#fff;
+    padding:20px 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+.navbar-default .navbar-nav>.active>a{
+    color:#fff;
+    background: #1fa67b;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    color:#000;
+    background: #1fa67b;
+    
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#1fa67b;
+}
+
